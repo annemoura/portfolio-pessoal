@@ -20,6 +20,10 @@ Este projeto foi criado do zero como parte dos meus estudos em desenvolvimento w
 - **Projetos** — projetos práticos desenvolvidos durante meus estudos
 - **Contato** — links para e-mail, LinkedIn, GitHub e WhatsApp
 
+## 🌐 Portfólio online
+
+O link da versão publicada será adicionado assim que a hospedagem estiver disponível novamente.
+
 ## 🚀 Projetos em destaque
 
 ### ✅ Lista de Tarefas com JavaScript
