@@ -22,7 +22,7 @@ Este projeto foi criado do zero como parte dos meus estudos em desenvolvimento w
 
 ## 🌐 Portfólio online
 
-O link da versão publicada será adicionado assim que a hospedagem estiver disponível novamente.
+[Ver portfólio online](https://annemoura.github.io/portfolio-pessoal/)
 
 ## 🚀 Projetos em destaque
 
