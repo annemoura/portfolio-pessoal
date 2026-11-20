@@ -1,75 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu Portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171522">
+  <meta name="description" content="Portfólio de Anne Moura, estudante de Ciência da Computação e desenvolvedora em formação. Conheça projetos web, aplicações e estudos.">
+  <title>Anne Dev | Anne Moura — Desenvolvedora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Bem-vindo ao Meu Portfólio</h1>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Anne Dev, página inicial"><span class="brand-mark">A<span>.</span></span><span>ANNE <strong>DEV</strong></span></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a class="active" href="index.html">Início</a>
+        <a href="index.html#sobre">Sobre</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <a class="nav-cta" href="contato.html">Vamos conversar <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
 
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+  <main id="conteudo">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> PORTFÓLIO • DESENVOLVIMENTO WEB</p>
+        <h1>Ideias ganham forma<br>quando <span class="gradient-text">viram soluções.</span></h1>
+        <p class="hero-lead">Sou <strong>Anne Moura</strong>, estudante de Ciência da Computação e desenvolvedora em formação. Crio projetos web enquanto aprofundo meus conhecimentos em tecnologia e programação.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="projetos.html">Explorar projetos <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="contato.html">Entrar em contato</a>
+        </div>
+        <div class="hero-meta"><span>HTML · CSS · JavaScript</span><span>Aprendizado contínuo</span></div>
+      </div>
+      <div class="hero-art" aria-label="Identidade visual Anne Dev" role="img">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-monogram">A<span>.</span></div>
+        <div class="floating-chip chip-top">const creativity = true;</div>
+        <div class="floating-chip chip-bottom"><span class="status-dot"></span> construindo o próximo projeto</div>
+        <div class="art-glow"></div>
+      </div>
+    </section>
 
-            <img class="foto-perfil" src="img/capa.jpeg" alt="foto de perfil">
-        </nav>
-    </header>
+    <section class="section container" id="sobre">
+      <div class="section-heading">
+        <p class="eyebrow">01 / SOBRE MIM</p>
+        <h2>Tecnologia com curiosidade<br>e propósito.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>Minha jornada em tecnologia é guiada pela curiosidade de entender como as coisas funcionam e pela vontade de transformar ideias em aplicações úteis.</p>
+          <p>Atualmente, estou fortalecendo minha base em desenvolvimento web, praticando com projetos próprios e ampliando meus conhecimentos em aplicações e integração de serviços.</p>
+          <a class="text-link" href="contato.html">Conheça meus canais de contato <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="info-panel">
+          <div class="info-row"><span class="info-icon">⌘</span><div><strong>Formação</strong><span>Ciência da Computação</span></div></div>
+          <div class="info-row"><span class="info-icon">⌁</span><div><strong>Foco atual</strong><span>Desenvolvimento web e aplicações</span></div></div>
+          <div class="info-row"><span class="info-icon">↗</span><div><strong>Objetivo</strong><span>Evoluir para desenvolvimento Full Stack</span></div></div>
+        </div>
+      </div>
+    </section>
 
-    <main>
-        <section class="sobre-mim">
-            <h2>Sobre Mim</h2>
-            <p>👩‍💻 Anne Moura </p>
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-heading section-heading-row">
+          <div><p class="eyebrow">02 / TECNOLOGIAS</p><h2>Ferramentas que estudo<br>e uso nos projetos.</h2></div>
+          <p class="section-aside">Conhecimentos em evolução, aplicados por meio de prática e construção de projetos.</p>
+        </div>
+        <div class="tech-list">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git</span><span>GitHub</span><span>React</span><span>TypeScript</span><span>Expo</span><span>Supabase</span>
+        </div>
+        <p class="micro-note">React, TypeScript, Expo e Supabase estão em desenvolvimento e são explorados em projetos de estudo.</p>
+      </div>
+    </section>
 
-            <p>🎓 Estudante de Ciência da Computação</p>
-            <p>🚀 Desenvolvedora Full Stack em formação </p>
+    <section class="section container">
+      <div class="section-heading section-heading-row">
+        <div><p class="eyebrow">03 / SELEÇÃO</p><h2>Projetos em destaque.</h2></div>
+        <a class="text-link" href="projetos.html">Ver todos os projetos <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="featured-grid">
+        <article class="project-card project-featured">
+          <div class="project-art art-study"><span class="art-label">PROJETO AUTORAL</span><div class="study-window"><i></i><i></i><i></i><b>StudyHub</b><small>Seu espaço de aprendizagem</small><span class="window-line"></span><span class="window-line short"></span></div></div>
+          <div class="project-content"><p class="project-kicker">EM DESENVOLVIMENTO</p><h3>StudyHub</h3><p>Plataforma de estudos com organização acadêmica, biblioteca de materiais e assistente de IA para apoiar a aprendizagem.</p><div class="tag-list"><span>React Native</span><span>Expo</span><span>TypeScript</span><span>Supabase</span></div><a class="text-link" href="https://studyhub-sand-psi.vercel.app/login" target="_blank" rel="noopener noreferrer">Conhecer demonstração <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-web"><span class="code-symbol">&lt;/&gt;</span><span class="art-caption">PORTFÓLIO WEB</span></div>
+          <div class="project-content"><p class="project-kicker">DESENVOLVIMENTO WEB</p><h3>Portfólio pessoal</h3><p>Site desenvolvido para apresentar minha trajetória, projetos e canais de contato.</p><div class="tag-list"><span>HTML5</span><span>CSS3</span></div><a class="text-link" href="projetos.html">Ver detalhes <span aria-hidden="true">→</span></a></div>
+        </article>
+      </div>
+    </section>
 
+    <section class="closing-cta">
+      <div class="container closing-inner"><div><p class="eyebrow">VAMOS CONSTRUIR ALGO?</p><h2>Uma boa ideia pode ser<br>o começo de um projeto.</h2></div><a class="button button-primary" href="contato.html">Fale comigo <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
 
-
-            <p>Atualmente focada em desenvolvimento web, construindo projetos práticos com HTML, CSS e JavaScript.
-                Buscando evoluir para desenvolvimento Full Stack com base sólida e projetos reais.</p>
-
-                <p>💻 Tecnologias:</p>
-            <div class="icones-tecnologias">
-                <img src="img/html5.svg" alt="HTML5">
-                <img src="img/css3.svg" alt="CSS3">
-                <img src="img/javascript.svg" alt="JavaScript">
-                <img src="img/git.svg" alt="Git">
-                <img src="img/github.svg" alt="GitHub">
-            </div>
-
-            <p>📚 Atualmente Estudando</p>
-
-            <p>Front-end: HTML5, CSS3, JavaScript (ES6+) e estudos de Flexbox, Grid e pseudo-classes.</p>
-            <p>Ciência da Computação: Estrutura de Dados, Algoritmos e Programação Orientada a Objetos (POO)</p>
-            <p>Back-end & Banco de Dados: Fundamentos de Node.js, Express e SQL (em breve)</p>
-            <p>Ferramentas: Git, GitHub e boas práticas de versionamento</p>
-
-            <p>💡 Objetivo: Tornar-me uma desenvolvedora Full Stack, capaz de criar aplicações web completas e
-                eficientes.
-            </p>
-
-        </section>
-
-
-    </main>
-
-
-    <footer>
-        <p>&copy; 2026 Anne Moura. Desenvolvido com HTML e CSS.</p>
-    </footer>
-
-
-
-
-
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">A<span>.</span></span><span>ANNE <strong>DEV</strong></span></a><p>Anne Dev — Desenvolvedora: Anne Moura</p><span>© 2026 Anne Moura</span></div></footer>
 </body>
-
 </html>
