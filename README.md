@@ -2,7 +2,7 @@
 
 Portfólio web de **Anne Moura**, estudante de Ciência da Computação e desenvolvedora em formação. O site apresenta minha trajetória de aprendizado, projetos práticos e canais de contato.
 
-<**[Acessar o portfólio](https://annemoura.github.io/portfolio-pessoal/)**>
+**[Acessar o portfólio](https://annemoura.github.io/portfolio-pessoal/)**
 
 ## Sobre o projeto
 
