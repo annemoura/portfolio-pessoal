@@ -182,3 +182,39 @@ h1, h2, h3 { font-family: var(--font-display); line-height: 1.12; letter-spacing
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+/* Capturas reais dos projetos */
+.project-art.project-image {
+  display: block;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+  background: #171522;
+}
+.project-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform .35s ease;
+}
+.project-card:hover .project-image img {
+  transform: scale(1.025);
+}
+.project-image .art-label,
+.project-image .art-caption {
+  z-index: 1;
+  padding: 6px 9px;
+  border: 1px solid rgba(243,240,247,.16);
+  border-radius: 6px;
+  background: rgba(23,21,34,.78);
+  color: #f3f0f7;
+  backdrop-filter: blur(8px);
+}
+@media (max-width: 560px) {
+  .project-art.project-image,
+  .project-image img {
+    aspect-ratio: 16 / 10;
+  }
+}
