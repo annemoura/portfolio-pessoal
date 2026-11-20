@@ -1,52 +1,48 @@
-# 💼 Portfólio Pessoal
+# Portfólio Pessoal
 
-Portfólio pessoal desenvolvido com **HTML5** e **CSS3** para apresentar meus projetos, tecnologias em estudo e formas de contato.
+Portfólio web de **Anne Moura**, estudante de Ciência da Computação e desenvolvedora em formação. O site apresenta minha trajetória de aprendizado, projetos práticos e canais de contato.
 
-## 👩‍💻 Sobre o projeto
+<**[Acessar o portfólio](https://annemoura.github.io/portfolio-pessoal/)**>
 
-Este projeto foi criado do zero como parte dos meus estudos em desenvolvimento web. A proposta é reunir em um só lugar informações sobre minha formação, tecnologias que estou estudando, projetos práticos e canais de contato.
+## Sobre o projeto
 
-## 🛠️ Tecnologias utilizadas
+Este projeto foi desenvolvido como prática de desenvolvimento front-end. A proposta é apresentar minhas informações profissionais em uma página própria, com navegação entre as seções Sobre Mim, Projetos e Contato.
 
-- HTML5
-- CSS3
-- Flexbox
-- Git
-- GitHub
+## Tecnologias e conceitos
 
-## 📂 Páginas do portfólio
+- **HTML5** — estruturação semântica das páginas.
+- **CSS3** — estilização e organização visual.
+- **Flexbox** — construção de layouts.
+- **Git e GitHub** — versionamento e publicação do projeto.
 
-- **Sobre Mim** — apresentação, objetivos e tecnologias em estudo
-- **Projetos** — projetos práticos desenvolvidos durante meus estudos
-- **Contato** — links para e-mail, LinkedIn, GitHub e WhatsApp
+## Páginas
 
-## 🌐 Portfólio online
+| Página | Conteúdo |
+|---|---|
+| Sobre Mim | Apresentação, formação, tecnologias e objetivos profissionais |
+| Projetos | Seleção de projetos desenvolvidos durante meus estudos |
+| Contato | Canais para entrar em contato |
 
-[Ver portfólio online](https://annemoura.github.io/portfolio-pessoal/)
+## Projetos apresentados
 
-## 🚀 Projetos em destaque
+- **[Lista de Tarefas](https://annemoura.github.io/lista-de-tarefas-js/)** — aplicação para adicionar, organizar e concluir tarefas, com prática de JavaScript e manipulação do DOM.
+- **[Clone da página inicial do Discord](https://annemoura.github.io/discord-clone-landing-page/)** — exercício de reprodução de interface com HTML, CSS, Flexbox e responsividade.
 
-### ✅ Lista de Tarefas com JavaScript
-Aplicação simples para adicionar e organizar tarefas, criada para praticar manipulação do DOM e JavaScript.
+## Estudos em andamento
 
-### 🎮 Clone da Página Inicial do Discord
-Projeto educacional focado na recriação visual da página inicial do Discord, utilizando HTML5, CSS3, Flexbox e conceitos de responsividade.
+- HTML5, CSS3 e JavaScript (ES6+).
+- Flexbox, Grid e construção de interfaces responsivas.
+- Estrutura de Dados, Algoritmos e Programação Orientada a Objetos.
+- Fundamentos de desenvolvimento back-end e bancos de dados.
+- Git, GitHub e boas práticas de versionamento.
 
-## 📚 Atualmente estudando
+## Objetivo
 
-- HTML5 e CSS3
-- JavaScript (ES6+)
-- Flexbox e Grid
-- Estrutura de Dados e Algoritmos
-- Programação Orientada a Objetos
-- Git e GitHub
+Evoluir na área de desenvolvimento web, consolidando fundamentos de front-end e avançando gradualmente para o desenvolvimento Full Stack por meio de estudos e projetos práticos.
 
-## 🎯 Objetivo
-
-Evoluir para desenvolvimento Full Stack, construindo aplicações web completas e fortalecendo minha base em programação por meio de projetos práticos.
-
-## ✒️ Autora
+## Autoria
 
 Desenvolvido por **Anne Moura**.
 
-- GitHub: https://github.com/annemoura
+- [GitHub](https://github.com/annemoura)
+- [LinkedIn](https://www.linkedin.com/in/aryane-moura-4a4567319/)
